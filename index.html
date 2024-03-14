@@ -41,18 +41,38 @@
                         sustainable energy seminar
                     </p>
                     <div class="tab-titles">
-                        <p class="tab-links active-link">Skills</p>
-                        <p class="tab-links">Experience</p>
-                        <p class="tab-links">Education</p>
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
                     </div>
-                    <div class="tab-contents">
+                    <div class="tab-contents active-tab" id="Skills">
                         <ul>
                             <li><span>UI/UX</span><br>Designing Website</li>
+                            <li><span>Web development</span><br>Web app development</li>
+                            <li><span>App development</span><br>Android app development</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Website</li>
+                            <li><span>Web development</span><br>Web app development</li>
+                            <li><span>App development</span><br>Android app development</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Website</li>
+                            <li><span>Web development</span><br>Web app development</li>
+                            <li><span>App development</span><br>Android app development</li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <script>
+var tablinks =document.getElementsByClassName("tab-links");
+
+    </script>
 </body>
 </html>
